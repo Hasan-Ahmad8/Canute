@@ -1,0 +1,15 @@
+{
+  "name": "Canute",
+  "short_name": "Canute",
+  "start_url": "/?home=true",
+  "display": "fullscreen",
+  "background_color": "#fff",
+  "description": "My application description",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
