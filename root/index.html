@@ -1,21 +1,26 @@
-<!DOCTYPE html>
-<html lang = 'en'>
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="space man" href="images/logo.png" type="image/png">
-
-        <link rel="manifest" href="json/manifest.json">
+        <title>Welcome to Canute Social</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
-        <h1>Hello World</h1>
-        <script>
-            if('serviceWorker' in navigator){
-                navigator.serviceWorker.register('scripts/service-worker.js');
-            }
-        </script>
+        <div class="banner">
+            <div class="navbar">
+                <img src="images/logo.png" class="logo" height="100px" width="10px">
+                <ul>
+                    <li><a href ='#'>Privacy</a></li>
+                    <li><a href ='#'>About</a></li>
+                    <li><a href ='#'>Contact</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>CANUTE SOCIAL</h1>
+                <p>Where will you go, what will you see?</p>
+                <div>
+                    <button type="button">Sign Up</button>
+                    <button type="button"><a href="#">Log In</a></button>
+                </div>
+            </div>
+        </div>
     </body>
-
-
 </html>
